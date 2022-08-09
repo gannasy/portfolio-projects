@@ -17,6 +17,8 @@ h1 {
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -47,4 +49,38 @@ p {
   border-radius: 4px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+
+  border: 2px solid;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.proj-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  .proj-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
 }
